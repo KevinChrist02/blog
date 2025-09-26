@@ -22,15 +22,14 @@
 }
 @font-face {
   font-family: "TerminessNerdFont";
-  src: url("../../public/fonts/TerminessNerdFont-Regular.ttf")
-    format("truetype");
+  src: url("/fonts/TerminessNerdFont-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TerminessNerdFont";
-  src: url("../../public/fonts/TerminessNerdFont-Bold.ttf") format("truetype");
+  src: url("/fonts/TerminessNerdFont-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
