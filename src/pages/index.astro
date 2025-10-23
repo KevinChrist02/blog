@@ -1,29 +1,36 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
-	<body>
-		<Header />
-		<main>
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <main>
             <h1>Hello!</h1>
-            <p>
-                Welcome to my profile
-			</p>
+            <p>Welcome to my profile</p>
             <p>
                 I will manly share my projects on this site and maybe write some
                 <a href="/blog">articles</a>
                 about stuff i'm currently curious about.
             </p>
             <h2>Projects</h2>
-		</main>
-		<Footer />
-	</body>
+            <ul>
+                <li>
+                    My own
+                    <a href="https://github.com/KevinChrist02/homelab"
+                        >homelab</a
+                    >
+                    with all the services i selfhost
+                </li>
+            </ul>
+        </main>
+        <Footer />
+    </body>
 </html>

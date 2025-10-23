@@ -1,7 +1,7 @@
 ---
 title: 'Astro.js is pretty cool!'
 description: 'Using Astro to build my portfolio website and have a nice blog template strutcure preconfigured'
-pubDate: 'Sep 26 2025'
+pubDate: 2025-09-26 
 ---
 
 Every developer who wants to show of their projects or at least need to present
